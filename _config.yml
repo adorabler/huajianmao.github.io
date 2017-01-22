@@ -9,8 +9,8 @@
 locale                   : "zh_CN"
 title                    : "HJ's Homepage"
 title_separator          : "|"
-name                     : "Huajian Mao"
-description              : "Log my life."
+name                     : &name "Huajian Mao"
+description              : &description "Log my life."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : huajianmao/huajianmao.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -74,6 +74,9 @@ analytics:
   google:
     tracking_id          :
 
+# Site CV
+cv:
+  style: styles
 
 # Site Author
 author:
@@ -81,8 +84,9 @@ author:
   avatar           : "/assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "System Architect"
   location         : "Beijing, China"
+  phone            :
   email            : huajianmao@gmail.com
-  uri              :
+  uri              : huajianmao.github.io
   bitbucket        :
   codepen          :
   dribbble         :
@@ -135,8 +139,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
