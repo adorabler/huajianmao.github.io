@@ -33,17 +33,19 @@ tags:
 
 ----
 
+{% include toc %}
+
 ## 资料索引
 
 ### Spark Papers and Book
-* *M. Zaharia*. [An Architecture for Fast and General Data Processing on Large Clusters](./doc/EECS-2014-12.pdf). **(PhD Disseration), University of California at Berkeley**, February 2014.
-* *M. Zaharia, M. Chowdhury, T. Das, A. Dave, J. Ma, M. McCauley, M.J. Franklin, S. Shenker, I. Stoica*. [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](./doc/nsdi_spark.pdf), **NSDI 2012**, April 2012.
-* *M. Zaharia, M. Chowdhury, M.J. Franklin, S. Shenker and I. Stoica*. [Spark: Cluster Computing with Working Sets](./doc/hotcloud_spark.pdf), **HotCloud 2010**, June 2010.
+* *M. Zaharia*. [An Architecture for Fast and General Data Processing on Large Clusters]({{site.url}}{{site.baseurl}}/assets/docs/spark/EECS-2014-12.pdf). **(PhD Disseration), University of California at Berkeley**, February 2014.
+* *M. Zaharia, M. Chowdhury, T. Das, A. Dave, J. Ma, M. McCauley, M.J. Franklin, S. Shenker, I. Stoica*. [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing]({{site.url}}{{site.baseurl}}/assets/docs/spark/nsdi_spark.pdf), **NSDI 2012**, April 2012.
+* *M. Zaharia, M. Chowdhury, M.J. Franklin, S. Shenker and I. Stoica*. [Spark: Cluster Computing with Working Sets]({{site.url}}{{site.baseurl}}/assets/docs/spark/hotcloud_spark.pdf), **HotCloud 2010**, June 2010.
 
-* *Karau, Holden*. [Fast Data Processing With Spark](./doc/Fast_Data_Processing_with_Spark.pdf). **Packt Publishing Ltd**, 2013. [Book, you may find the PDF version [here](http://ishare.iask.sina.com.cn/f/67674105.html)]
+* *Karau, Holden*. [Fast Data Processing With Spark]({{site.url}}{{site.baseurl}}/assets/docs/spark/Fast_Data_Processing_with_Spark.pdf). **Packt Publishing Ltd**, 2013. [Book, you may find the PDF version [here](http://ishare.iask.sina.com.cn/f/67674105.html)]
 
 ### Talks
-* The Intro to Spark Internals Meetup talk ([Video](https://www.youtube.com/watch?v=49Hr5xZyTEA) or [here](http://pan.baidu.com/s/1kTHStAf), [PPT slides](./doc/dev-meetup-dec-2012.pptx)) is a good introduction to the internals
+* The Intro to Spark Internals Meetup talk ([Video](https://www.youtube.com/watch?v=49Hr5xZyTEA) or [here](http://pan.baidu.com/s/1kTHStAf), [PPT slides]({{site.url}}{{site.baseurl}}/assets/docs/spark/dev-meetup-dec-2012.pptx)) is a good introduction to the internals
 * [Spark Summit](http://spark-summit.org) ([2013](http://spark-summit.org/2013) \| [2014](http://spark-summit.org/2014))
 * [AMP Camp – Big Data Bootcamps](http://ampcamp.berkeley.edu/) ([AMP Camp 1](http://ampcamp.berkeley.edu/amp-camp-one-berkeley-2012/) \| [AMP Camp 2](http://ampcamp.berkeley.edu/amp-camp-two-strata-2013/) \| [AMP Camp 3](http://ampcamp.berkeley.edu/3/) \| [AMP Camp 4](http://ampcamp.berkeley.edu/4/))
 * [Apache Spark Channel on YouTube](https://www.youtube.com/channel/UCRzsq7k4-kT-h3TDUBQ82-w)

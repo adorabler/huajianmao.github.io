@@ -6,6 +6,8 @@ tags:
   - Spark
 ---
 
+{% include toc %}
+
 ## Source code:
 ``` scala
 package cn.hjmao
