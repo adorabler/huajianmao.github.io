@@ -1,5 +1,5 @@
 ---
-title: "[WIP]我的Ubuntu环境"
+title: "我的Ubuntu环境"
 tags:
   - Step by step
 ---
@@ -20,13 +20,14 @@ tags:
 所以那时候，一天重新装几次系统也是经常有的事情，
 现在回想起来都觉得不可思议。
 
-现在Ubuntu依旧是我的工作、生活中使用的主力系统，
+现在Ubuntu依旧是我的工作、生活中使用的主力系统。
 但现在的系统远比当时的成熟稳定，软件基本也比以前好用太多，
-所以也有很长时间没有去折腾系统了，基本上是需求导向的，
-在美观度可接受的前提下，把系统配置成自己习惯的方式就拉倒了，
+所以也有很长时间没有去折腾系统了。
+现在基本上是需求导向的，
+在美观度可接受的前提下，把系统配置成自己习惯的方式就拉倒了。
 所以现在使用Ubuntu基本上就是简单美化一下系统，
 然后执行一遍积累下来的配置文件，就用着了，
-但像什么内核编译啊，系统精简啊之类的都已经好久没有玩过了。
+但像什么内核编译啊，系统精简啊之类的都已经好久没有玩过的东西了。
 
 这篇博文主要是想分享一下，我从重新安装系统完毕后到开始正常使用，
 都会干些啥、都是怎么干的，我自己用着感觉还是挺方便的。
@@ -38,17 +39,18 @@ tags:
 
 ## 系统美化
 相对以前的Linux系统来说，现在的Ubuntu也好，Fedora也好，其实已经相当好看了。
-但色调搭配来说，不是特别的喜欢Ubuntu默认的紫色系配色。
+但就色调搭配来说，个人不是特别的喜欢Ubuntu默认的紫色系配色。
 都说，Mac是面向程序员最好的平台，
 虽然平时Mac、Linux都用，
 但个人认为，Mac主要吸引我的地方是它的UI、图标以及色彩搭配，
 而软件使用的便捷性、系统可定制性、程序员友好性等方面，
-我觉得还是Linux其实并不输Mac。
+我觉得Linux其实并不输Mac。
 
-所以在对Ubuntu的系统美化的时候，主要就是应用一个[MacBuntu](http://www.noobslab.com/p/themes-icons.html)主题。
+MacBuntu](http://www.noobslab.com/p/themes-icons.html)主题就是面向Linux系统，高仿Mac界面的一个主题，
 它通过替换系统的图标、桌面主题、菜单栏样式等方法，
 把Ubuntu在界面上改造成一个类Mac的系统。
-[noobslab.com](http://www.noobslab.com/2016/04/macbuntu-1604-transformation-pack-for.html)上有详细的配置过程。以下是精简后的脚本：
+个人非常喜欢MacBuntu在Ubuntu上的美化。所以一直用着它也有好长一段时间了。
+[noobslab.com](http://www.noobslab.com/2016/04/macbuntu-1604-transformation-pack-for.html)上有详细的配置过程，以下是精简后的脚本：
 
 ``` shell
 mkdir -p ~/tmp/macbuntu
