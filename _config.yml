@@ -265,10 +265,10 @@ defaults:
       path: ""
       type: research
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
+      layout: splash
+      author_profile: false
+      read_time: false
+      comments: false
       share: true
       related: true
   # _projects
@@ -276,10 +276,10 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
+      layout: splash
+      author_profile: false
+      read_time: false
+      comments: false
       share: true
       related: true
   # _tools
