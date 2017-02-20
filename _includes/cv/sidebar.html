@@ -4,8 +4,16 @@
      <div class="sidebar-wrapper">
             <div class="profile-container">
                 <img class="profile-img" src="{% if site.author.avatar %}{{ site.author.avatar }}{% else %}/assets/images/profile.png{% endif %}" alt="profile picture" />
-                <h2 class="name">{% if site.author.name %}{{site.author.name}}{% else %}Huajian Mao{% endif %}</h2>
-                <h3 class="tagline">{% if site.author.bio %}{{site.author.bio}}{% else %}Full Stack Developer{% endif %}</h3>
+                <h2 class="name">
+                  {% if site.author.name %}
+                  <!-- {{site.author.name}} -->
+                    毛华坚
+                  {% else %}
+                    Huajian Mao
+                  {% endif %}</h2>
+                <!--
+                <h3 class="tagline">{% if site.author.bio %}{{site.author.bio}}{% else %}研发工程师{% endif %}</h3>
+                -->
                 <h3 class="tagline">系统架构师</h3>
             </div><!--//profile-container-->
             
@@ -32,6 +40,7 @@
                     <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.author.github}}" target="_blank">github.com/{{site.author.github}}</a></li>
                     {% endif %}
                     
+                    <!--
                     {% if site.author.weibo%}
                     <li class="twitter"><i class="fa fa-weibo"></i><a href="https://weibo.com/{{site.author.weibo}}" target="_blank">{{site.author.weibo}} @AiiOfU</a></li>
                     {% endif %}
@@ -39,6 +48,7 @@
                     {% if site.author.twitter %}
                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.author.twitter}}" target="_blank">{{site.author.twitter}}</a></li>
                     {% endif %}
+                    -->
                     
                 </ul>
             </div><!--//contact-container-->
